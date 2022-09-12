@@ -1,0 +1,14 @@
+
+#menu{
+	list-style-type:none;
+	font-size:18px;
+}
+
+#menu li{
+	display:inline;
+}
+
+
+div[doz_type="row"] {
+    position: relative;
+}

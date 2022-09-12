@@ -1,0 +1,20 @@
+
+#menu{
+	list-style-type:none;
+	font-size:18px;
+}
+
+#menu li{
+	display:inline;
+}
+
+.slide_wrapper{
+	overflow: hidden;
+	
+}
+
+.sliders li:not(:last-child){
+	float : left;
+	margin-right: 30px;
+	list-style: none;
+}

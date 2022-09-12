@@ -1,0 +1,22 @@
+package com.song.java;
+
+import java.util.Scanner;
+
+public class PrinterExample {
+	public static void main(String[] args)throws Exception {
+		int num = (int)(Math.random()*10)+1;
+		boolean stop = true;
+		while(stop) {
+			if(num >=8) {
+				System.out.println("true");
+			}else {
+				System.out.println("false");
+				System.out.println("stop");
+				stop = !stop;
+			}
+		}
+		
+	
+	
+	}
+}

@@ -1,0 +1,19 @@
+
+#menu{
+	list-style-type:none;
+	font-size:18px;
+}
+
+#menu li{
+	display:inline;
+}
+
+
+.doz_row {
+    display: flex !important;
+    flex-flow: row wrap;
+}
+.doz_sys .doz_row {
+    margin-left: 0;
+    margin-right: 0;
+}

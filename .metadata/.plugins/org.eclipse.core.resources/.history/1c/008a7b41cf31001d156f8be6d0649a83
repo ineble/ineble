@@ -1,0 +1,128 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Hotel Online Reservation</title>
+		<meta charset = "utf-8" />
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+	</head>
+<body>
+	<nav style = "background-color:rgba(0, 0, 0, 0.1);" class = "navbar navbar-default">
+		<div  class = "container-fluid">
+			<div class = "navbar-header">
+				<a class = "navbar-brand" >Hotel Online Reservation</a>
+			</div>
+		</div>
+	</nav>	
+	<ul id = "menu">
+		<li><a href = "HotelMainPage.jsp">Home</a></li> |
+		<li><a href = "aboutus.jsp">About us</a></li> |
+		<li><a href = "contactus.jsp">Contact us</a></li> |
+		<li><a href = "gallery.jsp">Gallery</a></li> |
+		<li><a href = "dineandlounge.jsp">Dine and Lounge</a></li> |			
+		<li><a href = "reservation.jsp">Make a reservation</a></li> |
+		<li><a href = "rulesandregulation.jsp">Rules and Regulation</a></li>|
+		<li><a href = "adminLogin.jsp">Admin Login</a></li>
+	</ul>
+	<div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+			<li data-target="#myCarousel" data-slide-to="6"></li>
+		</ol>
+		<div doz_type="row" doz_grid="12" class="doz_row"><div doz_type="grid" doz_grid="12" class="col-dz col-dz-12"><div doz_type="widget" id="w2022052427d48d7f8a57d"><div class="_widget_data " data-widget-name="갤러리" data-widget-type="gallery2" data-widget-anim="none" data-widget-anim-duration="0.7" data-widget-anim-delay="0" data-widget-parent-is-mobile="N">    <div class="widget _gallery_wrap ">
+                <div id="container_w2022052427d48d7f8a57d" class="img_rendering slide_02 type_slide container_border owl-carousel owl-theme gallery2   paging_type_line custom_nav nav_type_st00 nav_round owl-loaded" style="padding-bottom: 20px; height: auto; margin: 0px -35px;">
+            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1895px, 0px, 0px); transition: all 6s ease 0s; width: 4169px;"><div class="owl-item cloned" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/003f450fd83c8.png">
+                    <div id="caption_10084222" style="display:none">
+                        <h4>웹사이트는 제작도 어렵지만 유지/보수도 큰 산이에요. <strong>아임웹은 국내 모든 결제 기능이 완벽히 지원되고 웬만한 구현은 다 돼서 운영이 수월했습니다.</strong></h4><p><strong>에디션덴마크</strong>  이지은 크리에이티브 디렉터</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084222" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/fa78cafd2812e.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/fa78cafd2812e.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/bc0fa3258d8af.png" data-sub-html="#caption_10084222" data-no="2"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/bc0fa3258d8af.png" data-sub-html="#caption_10084222" style=""><p class="title">웹사이트는 제작도 어렵지만 유지/보수도 큰 산이에요. <strong>아임웹은 국내 모든 결제 기능이 완벽히 지원되고 웬만한 구현은 다 돼서 운영이 수월했습니다.</strong><span class="body"><strong>에디션덴마크</strong>  이지은 크리에이티브 디렉터</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item cloned" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/a7fa6af404599.png">
+                    <div id="caption_10084239" style="display:none">
+                        <h4>성장 중인 비즈니스라 예산이 적고 웹사이트 수정도 빈번한데 <strong>아임웹은 경제적이면서 외부 인력없이 스스로 운영이 가능한 점이 가장 좋았습니다.</strong></h4><p><strong>매직볼트</strong>  박영만, 강래승 대표</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084239" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/20efb291c9522.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/20efb291c9522.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/76aa75f973ad8.png" data-sub-html="#caption_10084239" data-no="3"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/76aa75f973ad8.png" data-sub-html="#caption_10084239" style=""><p class="title">성장 중인 비즈니스라 예산이 적고 웹사이트 수정도 빈번한데 <strong>아임웹은 경제적이면서 외부 인력없이 스스로 운영이 가능한 점이 가장 좋았습니다.</strong><span class="body"><strong>매직볼트</strong>  박영만, 강래승 대표</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item cloned" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/e696b132626bc.png">
+                    <div id="caption_10084242" style="display:none">
+                        <h4><strong>아임웹에서 제공하는 서비스로 매출이 크게<br>늘었어요!</strong> 특히 페이스북 마케팅은 알아서<br>잠재고객을 찾아주니 홍보가 쉽게 되더라구요.</h4><p><strong>어텃</strong>  장예솔</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084242" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/7874d196fb7a0.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/7874d196fb7a0.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/88d680efb24dc.png" data-sub-html="#caption_10084242" data-no="4"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/88d680efb24dc.png" data-sub-html="#caption_10084242" style=""><p class="title"><strong>아임웹에서 제공하는 서비스로 매출이 크게<br>늘었어요!</strong> 특히 페이스북 마케팅은 알아서<br>잠재고객을 찾아주니 홍보가 쉽게 되더라구요.<span class="body"><strong>어텃</strong>  장예솔</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/7b028c006946f.png">
+                    <div id="caption_10084215" style="display:none">
+                        <h4><span style="font-weight:bold">아임웹으로 일주일도 안돼서 원하는 웹사이트<br>형태가 갖춰지는 것을 보고 잘 선택했다</span>고<br>저희 스스로 칭찬했습니다.</h4><p><strong>밑미</strong>  손하빈 대표</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084215" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/ea2f128763399.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/ea2f128763399.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/f0585254c8b89.png" data-sub-html="#caption_10084215" data-no="0"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/f0585254c8b89.png" data-sub-html="#caption_10084215" style="display: table;"><p class="title"><span style="font-weight:bold">아임웹으로 일주일도 안돼서 원하는 웹사이트<br>형태가 갖춰지는 것을 보고 잘 선택했다</span>고<br>저희 스스로 칭찬했습니다.<span class="body"><strong>밑미</strong>  손하빈 대표</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/7a36e73115a94.png">
+                    <div id="caption_10084216" style="display:none">
+                        <h4>타 유명 서비스를 오래 이용하다가 <strong>아임웹으로<br>옮긴지 1년이 안됐는데 작년에 비해 매출이 300% 성장을 했습니다.</strong></h4><p><strong>생긴대로</strong>  조승연 대표</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084216" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/959f9df227495.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/959f9df227495.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/7b45b0afb6dde.png" data-sub-html="#caption_10084216" data-no="1"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/7b45b0afb6dde.png" data-sub-html="#caption_10084216" style="display: table;"><p class="title">타 유명 서비스를 오래 이용하다가 <strong>아임웹으로<br>옮긴지 1년이 안됐는데 작년에 비해 매출이 300% 성장을 했습니다.</strong><span class="body"><strong>생긴대로</strong>  조승연 대표</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item active" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/003f450fd83c8.png">
+                    <div id="caption_10084222" style="display:none">
+                        <h4>웹사이트는 제작도 어렵지만 유지/보수도 큰 산이에요. <strong>아임웹은 국내 모든 결제 기능이 완벽히 지원되고 웬만한 구현은 다 돼서 운영이 수월했습니다.</strong></h4><p><strong>에디션덴마크</strong>  이지은 크리에이티브 디렉터</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084222" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/fa78cafd2812e.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/fa78cafd2812e.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/bc0fa3258d8af.png" data-sub-html="#caption_10084222" data-no="2"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/bc0fa3258d8af.png" data-sub-html="#caption_10084222" style="display: table;"><p class="title">웹사이트는 제작도 어렵지만 유지/보수도 큰 산이에요. <strong>아임웹은 국내 모든 결제 기능이 완벽히 지원되고 웬만한 구현은 다 돼서 운영이 수월했습니다.</strong><span class="body"><strong>에디션덴마크</strong>  이지은 크리에이티브 디렉터</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item active" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/a7fa6af404599.png">
+                    <div id="caption_10084239" style="display:none">
+                        <h4>성장 중인 비즈니스라 예산이 적고 웹사이트 수정도 빈번한데 <strong>아임웹은 경제적이면서 외부 인력없이 스스로 운영이 가능한 점이 가장 좋았습니다.</strong></h4><p><strong>매직볼트</strong>  박영만, 강래승 대표</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084239" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/20efb291c9522.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/20efb291c9522.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/76aa75f973ad8.png" data-sub-html="#caption_10084239" data-no="3"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/76aa75f973ad8.png" data-sub-html="#caption_10084239" style="display: table;"><p class="title">성장 중인 비즈니스라 예산이 적고 웹사이트 수정도 빈번한데 <strong>아임웹은 경제적이면서 외부 인력없이 스스로 운영이 가능한 점이 가장 좋았습니다.</strong><span class="body"><strong>매직볼트</strong>  박영만, 강래승 대표</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item active" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/e696b132626bc.png">
+                    <div id="caption_10084242" style="display:none">
+                        <h4><strong>아임웹에서 제공하는 서비스로 매출이 크게<br>늘었어요!</strong> 특히 페이스북 마케팅은 알아서<br>잠재고객을 찾아주니 홍보가 쉽게 되더라구요.</h4><p><strong>어텃</strong>  장예솔</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084242" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/7874d196fb7a0.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/7874d196fb7a0.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/88d680efb24dc.png" data-sub-html="#caption_10084242" data-no="4"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/88d680efb24dc.png" data-sub-html="#caption_10084242" style="display: table;"><p class="title"><strong>아임웹에서 제공하는 서비스로 매출이 크게<br>늘었어요!</strong> 특히 페이스북 마케팅은 알아서<br>잠재고객을 찾아주니 홍보가 쉽게 되더라구요.<span class="body"><strong>어텃</strong>  장예솔</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item cloned" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/7b028c006946f.png">
+                    <div id="caption_10084215" style="display:none">
+                        <h4><span style="font-weight:bold">아임웹으로 일주일도 안돼서 원하는 웹사이트<br>형태가 갖춰지는 것을 보고 잘 선택했다</span>고<br>저희 스스로 칭찬했습니다.</h4><p><strong>밑미</strong>  손하빈 대표</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084215" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/ea2f128763399.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/ea2f128763399.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/f0585254c8b89.png" data-sub-html="#caption_10084215" data-no="0"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/f0585254c8b89.png" data-sub-html="#caption_10084215" style=""><p class="title"><span style="font-weight:bold">아임웹으로 일주일도 안돼서 원하는 웹사이트<br>형태가 갖춰지는 것을 보고 잘 선택했다</span>고<br>저희 스스로 칭찬했습니다.<span class="body"><strong>밑미</strong>  손하빈 대표</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item cloned" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/7a36e73115a94.png">
+                    <div id="caption_10084216" style="display:none">
+                        <h4>타 유명 서비스를 오래 이용하다가 <strong>아임웹으로<br>옮긴지 1년이 안됐는데 작년에 비해 매출이 300% 성장을 했습니다.</strong></h4><p><strong>생긴대로</strong>  조승연 대표</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084216" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/959f9df227495.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/959f9df227495.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/7b45b0afb6dde.png" data-sub-html="#caption_10084216" data-no="1"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/7b45b0afb6dde.png" data-sub-html="#caption_10084216" style=""><p class="title">타 유명 서비스를 오래 이용하다가 <strong>아임웹으로<br>옮긴지 1년이 안됐는데 작년에 비해 매출이 300% 성장을 했습니다.</strong><span class="body"><strong>생긴대로</strong>  조승연 대표</span></p></div><div class="slide_overlay"></div></div>                </div></div><div class="owl-item cloned" style="width: 379px; margin-right: 0px;"><div class="_item item_gallary " style="position: relative; padding: 35px;" data-org="S2019072328221df14a5ca/003f450fd83c8.png">
+                    <div id="caption_10084222" style="display:none">
+                        <h4>웹사이트는 제작도 어렵지만 유지/보수도 큰 산이에요. <strong>아임웹은 국내 모든 결제 기능이 완벽히 지원되고 웬만한 구현은 다 돼서 운영이 수월했습니다.</strong></h4><p><strong>에디션덴마크</strong>  이지은 크리에이티브 디렉터</p>
+                    </div>
+
+                    <div class="item_container _item_container"><div class="img_wrap _img_wrap _lightbox_item cursor_pointer " id="gal_item_10084222" style="background-image: url(&quot;https://cdn.imweb.me/thumbnail/20220530/fa78cafd2812e.png&quot;); min-height: 233px; height: 233px;" data-bg="url(https://cdn.imweb.me/thumbnail/20220530/fa78cafd2812e.png)" data-src="https://cdn.imweb.me/thumbnail/20220530/bc0fa3258d8af.png" data-sub-html="#caption_10084222" data-no="2"></div><div class="text_wrap _text_wrap  " id="gal_item_" data-src="https://cdn.imweb.me/thumbnail/20220530/bc0fa3258d8af.png" data-sub-html="#caption_10084222" style=""><p class="title">웹사이트는 제작도 어렵지만 유지/보수도 큰 산이에요. <strong>아임웹은 국내 모든 결제 기능이 완벽히 지원되고 웬만한 구현은 다 돼서 운영이 수월했습니다.</strong><span class="body"><strong>에디션덴마크</strong>  이지은 크리에이티브 디렉터</span></p></div><div class="slide_overlay"></div></div>                </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="display: block;"></div><div class="owl-next" style="display: block;"></div></div><div class="owl-dots" style=""><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div></div>
+        
+        
+    </div>
+
+    
+
+            
+</div></div></div></div>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>	
+	</div>
+</body>
+<script src = "js/jquery.js"></script>
+<script src = "js/bootstrap.js"></script>	
+</html>

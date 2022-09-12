@@ -1,0 +1,16 @@
+package com.song.java;
+
+import java.util.Scanner;
+
+public class PrinterExample {
+	public static void main(String[] args)throws Exception {
+		int pencils = 534;
+		int students = 30;
+		
+		int pencilsPerStudnt = (pencils/students);
+		System.out.println(pencilsPerStudnt);
+		
+		int pencilsLeft = (pencils % students);
+		System.out.println(pencilsLeft);
+	}
+}

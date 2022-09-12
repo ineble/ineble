@@ -1,0 +1,15 @@
+package com.song.java;
+
+import java.util.Scanner;
+
+public class PrinterExample {
+	public static void main(String[] args)throws Exception {
+		float var1 = 10f;
+		float var2 = (float)var1 /100;
+		if(var2  == 0.1) {
+			System.out.println("10¿‘¥œ¥Ÿ.");
+		}else {
+			
+		}
+	}
+}

@@ -1,0 +1,15 @@
+
+#menu{
+	list-style-type:none;
+	font-size:18px;
+}
+
+#menu li{
+	display:inline;
+}
+
+
+.sliders li:not(:last-child){
+	float : left;
+	margin-right: 30px;
+}
